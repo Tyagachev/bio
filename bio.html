@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio</title>
+    <script defer src="./js/bio.js"></script>
+</head>
+<body>
+    <section>
+        <div class="wrp">
+            <input class="data" id="second" type="text"  placeholder="Фамилия">
+            <input class="data" id="first" type="text"  placeholder="Имя">
+            <input class="data" id="person" type="text"  placeholder="Отчество">
+        </div>
+        <button class="btn" onclick="Go()">Рассчитать</button>
+        
+        <div class="box">
+            <h3>ФИО пользователя:</h3>
+            <ul>
+                <li id="secondId"></li>
+                <li id="firstId"></li>
+                <li id="personId"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>ФИО пользователя без гласных:</h3>
+            <ul>
+                <li id="secondIdReplace"></li>
+                <li id="firstIdReplace"></li>
+                <li id="personIdReplace"></li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <h3>ФИО пользователя разложеные на цифры:</h3>
+            <ul>
+                <li id="secondIdNumber"></li>
+                <li id="firstIdNumber"></li>
+                <li id="personIdNumber"></li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <h3>ФТ и ИТ пользователя:</h3>
+            <ul>
+                <li id="redSecondNameID"></li>
+                <li></li>
+                <li id="redFirstNameID"></li>
+                
+            </ul>
+        </div>
+    </section>
+</body>
+<style>
+    .wrp {
+        display: flex;
+        flex-direction: column;
+    }
+    .box__wrp {
+        display: flex;
+        flex-direction: column;
+    }
+    .box {
+        border: 1px solid gray;
+        margin: 10px 0 0 0;
+        width: 400px;
+    }
+
+    .btn {
+        height: 30px;
+    }
+
+    .data {
+        width: 200px;
+        height: 25px;
+        margin: 5px;
+    }
+</style>
+</html>

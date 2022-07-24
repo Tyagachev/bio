@@ -15,7 +15,7 @@ let doomYear1 = a1 + b1 + Number(year);
 
 
 let y1 = document.getElementById('year1')
-y1.innerHTML = `${doomYear1}`
+y1.innerHTML = `-- ${doomYear1}`
 
 
 //2
@@ -29,7 +29,7 @@ let b2 = arrYear2 - (a2 * 10);
 let doomYear2 = a2 + b2 + Number(doomYear1);
 
 let y2 = document.getElementById('year2')
-y2.innerHTML = `${doomYear2}`
+y2.innerHTML = `-- ${doomYear2}`
 
 console.log (arrYear2)
 
@@ -45,7 +45,7 @@ let b3 = arrYear3 - (a3 * 10);
 let doomYear3 = a3 + b3 + Number(doomYear2);
 
 let y3 = document.getElementById('year3')
-y3.innerHTML = `${doomYear3}`
+y3.innerHTML = `-- ${doomYear3}`
 
 console.log (arrYear3)
 
@@ -61,7 +61,7 @@ let b4 = arrYear4 - (a4 * 10);
 let doomYear4 = a4 + b4 + Number(doomYear3);
 
 let y4 = document.getElementById('year4')
-y4.innerHTML = `${doomYear4}`
+y4.innerHTML = `-- ${doomYear4}`
 
 
 //5
@@ -75,7 +75,7 @@ let b5 = arrYear5 - (a5 * 10);
 let doomYear5 = a5 + b5 + Number(doomYear4);
 
 let y5 = document.getElementById('year5')
-y5.innerHTML = `${doomYear5}`
+y5.innerHTML = `-- ${doomYear5}`
 
 //6
 
@@ -88,7 +88,7 @@ let b6 = arrYear6 - (a6 * 10);
 let doomYear6 = a6 + b6 + Number(doomYear5);
 
 let y6 = document.getElementById('year6')
-y6.innerHTML = `${doomYear6}`
+y6.innerHTML = `-- ${doomYear6}`
 
 
 
@@ -103,7 +103,7 @@ let b7 = arrYear7 - (a7 * 10);
 let doomYear7 = a7 + b7 + Number(doomYear6);
 
 let y7 = document.getElementById('year7')
-y7.innerHTML = `${doomYear7}`
+y7.innerHTML = `-- ${doomYear7}`
 
 
 //8
@@ -117,7 +117,7 @@ let b8 = arrYear8 - (a8 * 10);
 let doomYear8 = a8 + b8 + Number(doomYear7);
 
 let y8 = document.getElementById('year8')
-y8.innerHTML = `${doomYear8}`
+y8.innerHTML = `-- ${doomYear8}`
 
 
 //9
@@ -131,7 +131,7 @@ let b9 = arrYear9 - (a9 * 10);
 let doomYear9 = a9 + b9 + Number(doomYear8);
 
 let y9 = document.getElementById('year9')
-y9.innerHTML = `${doomYear9}`
+y9.innerHTML = `-- ${doomYear9}`
 
 
 //10
@@ -145,7 +145,7 @@ let b10 = arrYear10 - (a10 * 10);
 let doomYear10 = a10 + b10 + Number(doomYear9);
 
 let y10 = document.getElementById('year10')
-y10.innerHTML = `${doomYear10}`
+y10.innerHTML = `-- ${doomYear10}`
 
 //11
 
@@ -158,7 +158,7 @@ let b11 = arrYear11 - (a11 * 10);
 let doomYear11 = a11 + b11 + Number(doomYear10);
 
 let y11 = document.getElementById('year11')
-y11.innerHTML = `${doomYear11}`
+y11.innerHTML = `-- ${doomYear11}`
 
 //12
 
@@ -171,7 +171,7 @@ let b12 = arrYear12 - (a12 * 10);
 let doomYear12 = a12 + b12 + Number(doomYear11);
 
 let y12 = document.getElementById('year12')
-y12.innerHTML = `${doomYear12}`
+y12.innerHTML = `-- ${doomYear12}`
 
 //13
 
@@ -184,7 +184,7 @@ let b13 = arrYear13 - (a13 * 10);
 let doomYear13 = a13 + b13 + Number(doomYear12);
 
 let y13 = document.getElementById('year13')
-y13.innerHTML = `${doomYear13}`
+y13.innerHTML = `-- ${doomYear13}`
 
 //14
 
@@ -197,7 +197,7 @@ let b14 = arrYear14 - (a14 * 10);
 let doomYear14 = a14 + b14 + Number(doomYear13);
 
 let y14 = document.getElementById('year14')
-y14.innerHTML = `${doomYear14}`
+y14.innerHTML = `-- ${doomYear14}`
 
 //15
 
@@ -210,7 +210,7 @@ let b15 = arrYear15 - (a15 * 10);
 let doomYear15 = a15 + b15 + Number(doomYear14);
 
 let y15 = document.getElementById('year15')
-y15.innerHTML = `${doomYear15}`
+y15.innerHTML = `-- ${doomYear15}`
 
 //16
 
@@ -223,7 +223,7 @@ let b16 = arrYear16 - (a16 * 10);
 let doomYear16 = a16 + b16 + Number(doomYear15);
 
 let y16 = document.getElementById('year16')
-y16.innerHTML = `${doomYear16}`
+y16.innerHTML = `-- ${doomYear16}`
 
 //17
 
@@ -236,7 +236,7 @@ let b17 = arrYear17 - (a17 * 10);
 let doomYear17 = a17 + b17 + Number(doomYear16);
 
 let y17 = document.getElementById('year17')
-y17.innerHTML = `${doomYear17}`
+y17.innerHTML = `-- ${doomYear17}`
 
 //18
 
@@ -249,7 +249,7 @@ let b18 = arrYear18 - (a18 * 10);
 let doomYear18 = a18 + b18 + Number(doomYear17);
 
 let y18 = document.getElementById('year18')
-y18.innerHTML = `${doomYear18}`
+y18.innerHTML = `-- ${doomYear18}`
 
 //19
 
@@ -262,7 +262,7 @@ let b19 = arrYear19 - (a19 * 10);
 let doomYear19 = a19 + b19 + Number(doomYear18);
 
 let y19 = document.getElementById('year19')
-y19.innerHTML = `${doomYear19}`
+y19.innerHTML = `-- ${doomYear19}`
 
 //20
 
@@ -275,6 +275,6 @@ let b20 = arrYear19 - (a20 * 10);
 let doomYear20 = a20 + b20 + Number(doomYear19);
 
 let y20 = document.getElementById('year20')
-y20.innerHTML = `${doomYear20}`
+y20.innerHTML = `-- ${doomYear20}`
 
 }

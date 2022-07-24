@@ -9,6 +9,7 @@
 </head>
 <body>
     <section>
+        <div class="wrapper">
         <div>
             <input class="data__year" id="yearId" type="text" placeholder="год">
         </div>
@@ -39,9 +40,16 @@
                 <li id="year20"></li>
             </ol>
         </div>
+    </div>
     </section>
     <style>
-        .data__year {
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .data__year {
         width: 78px;
         height: 25px;
         margin: 0 0 10px 0;

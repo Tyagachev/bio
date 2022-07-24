@@ -9,6 +9,7 @@
 </head>
 <body>
     <section>
+        <div class="wrapper">
         <div class="wrp">
             <input class="data" id="second" type="text"  placeholder="Фамилия">
             <input class="data" id="first" type="text"  placeholder="Имя">
@@ -46,11 +47,11 @@
             <h3>ФТ и ИТ пользователя:</h3>
             <ul>
                 <li id="redSecondNameID"></li>
-                <li></li>
                 <li id="redFirstNameID"></li>
                 
             </ul>
         </div>
+    </div>
     </section>
 </body>
 <style>
@@ -75,7 +76,13 @@
     .data {
         width: 200px;
         height: 25px;
-        margin: 5px;
+        margin: 0 0 10px 0;
     }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 </style>
 </html>

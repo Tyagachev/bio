@@ -271,6 +271,31 @@ function Go() {
         let additionalNumbers = document.getElementById('number__id');
         additionalNumbers.innerHTML = numberID;
 
+        // Зарок вычисляю
+
+        let thePledge = document.getElementById('idPledge');
+
+        let blockPledge = String(resultOne) + String(resultTwo)
+        if (blockPledge == "2911" || blockPledge == "3811" || blockPledge == "3912" || blockPledge == "3710" || blockPledge == "1910" || blockPledge == "2810") {
+            thePledge.innerHTML = "Так,так,так. Зарок-пророк нарисовался тут у чувачка";
+        } else {
+            thePledge.innerHTML = "Зароков-пророков не обнаружено";
+        }
+        
+
+        // А тут у нас проклятие
+
+        let theCurse = document.getElementById('idCurse');
+     
+        let blockCurse = String(resultThree) + String(resultFour)
+        if (blockCurse == "66" || blockCurse ==  "156" || blockCurse == "246" || blockCurse == "336" || blockCurse == "426") {
+            theCurse.innerHTML = 'А вот и Родовое проклятье нарисовалось';
+        } else {
+            theCurse.innerHTML = 'Проклятий не обнаружено';
+        }
+
+
+
         //Открывает надпись "Дополнительные числа", по умолчанию скрыта (display = 'none').
         let additionalNumbersText = document.querySelector('.additional__number-text')
         additionalNumbersText.style.display = 'block';

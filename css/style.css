@@ -1366,6 +1366,18 @@ canvas {
   color: black;
 }
 
+.function__number--curse {
+  color: black;
+  font-size: 25px;
+  margin: 20px 0 0 0;
+}
+
+.function__number--pledge {
+  color: black;
+  font-size: 25px;
+  margin: 20px 0 0 0;
+}
+
 .btn__wrp {
   display: -webkit-box;
   display: -ms-flexbox;

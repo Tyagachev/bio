@@ -55,7 +55,7 @@ sum + current
 )
 let a3 = Math.floor(arrYear3/ 10);
 let b3 = arrYear3 - (a3 * 10);
-let doomYear3 = a3 + b3 + Number(doomYear2);
+let doomYear3 = a3 + b3;
 
 let doomMatchOne3;
 let doomMatchTwo3;
@@ -78,13 +78,13 @@ y3.innerHTML = `-- ${doomAltResult3}`
 
 //4
 
-let arrYear4str = Array.from(String(doomYear3), Number);
+let arrYear4str = Array.from(String(doomAltResult3), Number);
 let arrYear4 = arrYear4str.reduce((sum, current)=>
 sum + current
 )
 let a4 = Math.floor(arrYear4/ 10);
 let b4 = arrYear4 - (a4 * 10);
-let doomYear4 = a4 + b4 + Number(doomYear3);
+let doomYear4 = a4 + b4;
 
 
 let doomMatchOne4;
@@ -108,13 +108,13 @@ y4.innerHTML = `-- ${doomAltResult4}`
 
 //5
 
-let arrYear5str = Array.from(String(doomYear4), Number);
+let arrYear5str = Array.from(String(doomAltResult4), Number);
 let arrYear5 = arrYear5str.reduce((sum, current)=>
 sum + current
 )
 let a5 = Math.floor(arrYear5/ 10);
 let b5 = arrYear5 - (a5 * 10);
-let doomYear5 = a5 + b5 + Number(doomYear4);
+let doomYear5 = a5 + b5;
 
 
 let doomMatchOne5;
@@ -137,13 +137,13 @@ y5.innerHTML = `-- ${doomAltResult5}`
 
 //6
 
-let arrYear6str = Array.from(String(doomYear5), Number);
+let arrYear6str = Array.from(String(doomAltResult5), Number);
 let arrYear6 = arrYear6str.reduce((sum, current)=>
 sum + current
 )
 let a6 = Math.floor(arrYear6/ 10);
 let b6 = arrYear6 - (a6 * 10);
-let doomYear6 = a6 + b6 + Number(doomYear5);
+let doomYear6 = a6 + b6;
 
 
 let doomMatchOne6;
@@ -168,13 +168,13 @@ y6.innerHTML = `-- ${doomAltResult6}`
 
 //7
 
-let arrYear7str = Array.from(String(doomYear6), Number);
+let arrYear7str = Array.from(String(doomAltResult6), Number);
 let arrYear7 = arrYear7str.reduce((sum, current)=>
 sum + current
 )
 let a7 = Math.floor(arrYear7/ 10);
 let b7 = arrYear7 - (a7 * 10);
-let doomYear7 = a7 + b7 + Number(doomYear6);
+let doomYear7 = a7 + b7;
 
 
 let doomMatchOne7;
@@ -198,13 +198,13 @@ y7.innerHTML = `-- ${doomAltResult7}`
 
 //8
 
-let arrYear8str = Array.from(String(doomYear7), Number);
+let arrYear8str = Array.from(String(doomAltResult7), Number);
 let arrYear8 = arrYear8str.reduce((sum, current)=>
 sum + current
 )
 let a8 = Math.floor(arrYear8/ 10);
 let b8 = arrYear8 - (a8 * 10);
-let doomYear8 = a8 + b8 + Number(doomYear7);
+let doomYear8 = a8 + b8;
 
 
 let doomMatchOne8;
@@ -228,13 +228,13 @@ y8.innerHTML = `-- ${doomAltResult8}`
 
 //9
 
-let arrYear9str = Array.from(String(doomYear8), Number);
+let arrYear9str = Array.from(String(doomAltResult8), Number);
 let arrYear9 = arrYear9str.reduce((sum, current)=>
 sum + current
 )
 let a9 = Math.floor(arrYear9/ 10);
 let b9 = arrYear9 - (a9 * 10);
-let doomYear9 = a9 + b9 + Number(doomYear8);
+let doomYear9 = a9 + b9;
 
 
 let doomMatchOne9;
@@ -258,13 +258,13 @@ y9.innerHTML = `-- ${doomAltResult9}`
 
 //10
 
-let arrYear10str = Array.from(String(doomYear9), Number);
+let arrYear10str = Array.from(String(doomAltResult9), Number);
 let arrYear10 = arrYear10str.reduce((sum, current)=>
 sum + current
 )
 let a10 = Math.floor(arrYear10/ 10);
 let b10 = arrYear10 - (a10 * 10);
-let doomYear10 = a10 + b10 + Number(doomYear9);
+let doomYear10 = a10 + b10;
 
 
 let doomMatchOne10;
@@ -287,13 +287,13 @@ y10.innerHTML = `-- ${doomAltResult10}`
 
 //11
 
-let arrYear11str = Array.from(String(doomYear10), Number);
+let arrYear11str = Array.from(String(doomAltResult10), Number);
 let arrYear11 = arrYear11str.reduce((sum, current)=>
 sum + current
 )
 let a11 = Math.floor(arrYear11/ 10);
 let b11 = arrYear11 - (a11 * 10);
-let doomYear11 = a11 + b11 + Number(doomYear10);
+let doomYear11 = a11 + b11;
 
 
 let doomMatchOne11;
@@ -316,13 +316,13 @@ y11.innerHTML = `-- ${doomAltResult11}`
 
 //12
 
-let arrYear12str = Array.from(String(doomYear11), Number);
+let arrYear12str = Array.from(String(doomAltResult11), Number);
 let arrYear12 = arrYear12str.reduce((sum, current)=>
 sum + current
 )
 let a12 = Math.floor(arrYear11/ 10);
 let b12 = arrYear12 - (a12 * 10);
-let doomYear12 = a12 + b12 + Number(doomYear11);
+let doomYear12 = a12 + b12;
 
 
 let doomMatchOne12;
@@ -345,13 +345,13 @@ y12.innerHTML = `-- ${doomAltResult12}`
 
 //13
 
-let arrYear13str = Array.from(String(doomYear12), Number);
+let arrYear13str = Array.from(String(doomAltResult12), Number);
 let arrYear13 = arrYear13str.reduce((sum, current)=>
 sum + current
 )
 let a13 = Math.floor(arrYear13/ 10);
 let b13 = arrYear13 - (a13 * 10);
-let doomYear13 = a13 + b13 + Number(doomYear12);
+let doomYear13 = a13 + b13;
 
 
 let doomMatchOne13;
@@ -374,13 +374,13 @@ y13.innerHTML = `-- ${doomAltResult13}`
 
 //14
 
-let arrYear14str = Array.from(String(doomYear13), Number);
+let arrYear14str = Array.from(String(doomAltResult13), Number);
 let arrYear14 = arrYear14str.reduce((sum, current)=>
 sum + current
 )
 let a14 = Math.floor(arrYear14/ 10);
 let b14 = arrYear14 - (a14 * 10);
-let doomYear14 = a14 + b14 + Number(doomYear13);
+let doomYear14 = a14 + b14;
 
 
 let doomMatchOne14;
@@ -403,13 +403,13 @@ y14.innerHTML = `-- ${doomAltResult14}`
 
 //15
 
-let arrYear15str = Array.from(String(doomYear14), Number);
+let arrYear15str = Array.from(String(doomAltResult14), Number);
 let arrYear15 = arrYear15str.reduce((sum, current)=>
 sum + current
 )
 let a15 = Math.floor(arrYear15/ 10);
 let b15 = arrYear15 - (a15 * 10);
-let doomYear15 = a15 + b15 + Number(doomYear14);
+let doomYear15 = a15 + b15;
 
 
 let doomMatchOne15;
@@ -432,13 +432,13 @@ y15.innerHTML = `-- ${doomAltResult15}`
 
 //16
 
-let arrYear16str = Array.from(String(doomYear15), Number);
+let arrYear16str = Array.from(String(doomAltResult15), Number);
 let arrYear16 = arrYear16str.reduce((sum, current)=>
 sum + current
 )
 let a16 = Math.floor(arrYear16/ 10);
 let b16 = arrYear16 - (a16 * 10);
-let doomYear16 = a16 + b16 + Number(doomYear15);
+let doomYear16 = a16 + b16;
 
 
 let doomMatchOne16;
@@ -461,13 +461,13 @@ y16.innerHTML = `-- ${doomAltResult16}`
 
 //17
 
-let arrYear17str = Array.from(String(doomYear16), Number);
+let arrYear17str = Array.from(String(doomAltResult16), Number);
 let arrYear17 = arrYear17str.reduce((sum, current)=>
 sum + current
 )
 let a17 = Math.floor(arrYear17/ 10);
 let b17 = arrYear17 - (a17 * 10);
-let doomYear17 = a17 + b17 + Number(doomYear16);
+let doomYear17 = a17 + b17;
 
 
 let doomMatchOne17;
@@ -490,13 +490,13 @@ y17.innerHTML = `-- ${doomAltResult17}`
 
 //18
 
-let arrYear18str = Array.from(String(doomYear17), Number);
+let arrYear18str = Array.from(String(doomAltResult17), Number);
 let arrYear18 = arrYear18str.reduce((sum, current)=>
 sum + current
 )
 let a18 = Math.floor(arrYear18/ 10);
 let b18 = arrYear18 - (a18 * 10);
-let doomYear18 = a18 + b18 + Number(doomYear17);
+let doomYear18 = a18 + b18;
 
 
 let doomMatchOne18;
@@ -519,13 +519,13 @@ y18.innerHTML = `-- ${doomAltResult18}`
 
 //19
 
-let arrYear19str = Array.from(String(doomYear18), Number);
+let arrYear19str = Array.from(String(doomAltResult18), Number);
 let arrYear19 = arrYear19str.reduce((sum, current)=>
 sum + current
 )
 let a19 = Math.floor(arrYear19/ 10);
 let b19 = arrYear19 - (a19 * 10);
-let doomYear19 = a19 + b19 + Number(doomYear18);
+let doomYear19 = a19 + b19;
 
 
 let doomMatchOne19;
@@ -548,13 +548,13 @@ y19.innerHTML = `-- ${doomAltResult19}`
 
 //20
 
-let arrYear20str = Array.from(String(doomYear19), Number);
+let arrYear20str = Array.from(String(doomAltResult19), Number);
 let arrYear20 = arrYear20str.reduce((sum, current)=>
 sum + current
 )
 let a20 = Math.floor(arrYear20/ 10);
-let b20 = arrYear19 - (a20 * 10);
-let doomYear20 = a20 + b20 + Number(doomYear19);
+let b20 = arrYear20 - (a20 * 10);
+let doomYear20 = a20 + b20;
 
 
 let doomMatchOne20;
